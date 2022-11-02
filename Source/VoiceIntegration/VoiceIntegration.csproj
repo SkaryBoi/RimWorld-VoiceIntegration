@@ -47,8 +47,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EventDefOf.cs" />
+    <Compile Include="FireManhunter.cs" />
+    <Compile Include="FireShortCircuit.cs" />
     <Compile Include="GameComponent_ButtonHandler.cs" />
-    <Compile Include="FireEvent.cs" />
+    <Compile Include="FireRaid.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

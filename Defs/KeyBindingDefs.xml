@@ -6,4 +6,16 @@
 		<label>Start a raid</label>
 		<defaultKeyCodeA>Keypad9</defaultKeyCodeA>
 	</KeyBindingDef> 
+	<KeyBindingDef>
+		<category>Game</category>
+		<defName>ManhunterRandom</defName>
+		<label>Make random animal in map insane</label>
+		<defaultKeyCodeA>Keypad8</defaultKeyCodeA>
+	</KeyBindingDef>
+	<KeyBindingDef>
+		<category>Game</category>
+		<defName>ShortCircuit</defName>
+		<label>Short a random power line</label>
+		<defaultKeyCodeA>Keypad7</defaultKeyCodeA>
+	</KeyBindingDef>
 </Defs>

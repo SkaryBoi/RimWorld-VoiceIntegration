@@ -16,13 +16,25 @@ namespace VoiceIntegration
 
         // most concise solution to tell program that StartRaid in KeyBindingDefs.xml exists
         KeyBindingDef StartRaid = DefDatabase<KeyBindingDef>.GetNamed("StartRaid");
+        KeyBindingDef ManhunterRandom = DefDatabase<KeyBindingDef>.GetNamed("ManhunterRandom");
+        KeyBindingDef ShortCircuit = DefDatabase<KeyBindingDef>.GetNamed("ShortCircuit");
 
         public override void GameComponentUpdate()
         {
             if (StartRaid.JustPressed)
             {
                 Log.Message("Attempted to StartRaid");
-                VoiceIntegration.FireEvent.ExecuteRaid();
+                FireRaid.ExecuteRaid();
+            }
+            if (ManhunterRandom.JustPressed)
+            {
+                Log.Message("Attempted to ManhunterRandom");
+                FireManhunter.ExecuteManhunt();
+            }
+            if (ShortCircuit.JustPressed)
+            {
+                Log.Message("Attempted to ShortCircuit");
+                FireShortCircuit.ExecuteShortCircuit();
             }
         }
     }
