@@ -8,7 +8,7 @@ using Verse;
 
 namespace VoiceIntegration
 {
-    public class FireEvent
+    public class FireRaid
     {
 
         // partly copied from DebugActionsIncidents.ExecuteRaidWithFaction
@@ -31,7 +31,7 @@ namespace VoiceIntegration
             // tl;dr fix this so it uses a generated raidstrategy
             parms.raidStrategy = DefDatabase<RaidStrategyDef>.GetNamed("ImmediateAttack");
 
-            VoiceIntegration.FireEvent.DoRaid(parms);
+            VoiceIntegration.FireRaid.DoRaid(parms);
         }
         private static void DoRaid(IncidentParms parms)
         {
