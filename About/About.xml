@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Voice Integration</name>
+	<author>SkaryBoi</author>
+	<packageId>skaryboi.voiceintegration</packageId>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<description>Enables keybinding for incidents such as raids
+Intended for integration with VoiceAttack or similar software
+Keybinds:
+	Numpad 9 to trigger appropriate raid
+	</description>
+</ModMetaData>

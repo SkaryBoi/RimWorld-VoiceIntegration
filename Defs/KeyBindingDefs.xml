@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <Defs>
+	<KeyBindingDef>
+		<category>Game</category>
+		<defName>StartRaid</defName>
+		<label>Start a raid</label>
+		<defaultKeyCodeA>Keypad9</defaultKeyCodeA>
+	</KeyBindingDef> 
+</Defs>
